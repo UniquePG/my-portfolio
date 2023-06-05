@@ -137,6 +137,17 @@
     display: none;
 }
 
+#top-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#top-btn:hover a{
+    color: var(--bgOrange);
+    font-weight: bold;
+
+}
+
 /* Modern css button */
 
 .btn-pink{
@@ -686,6 +697,12 @@
     font-size: 1.5em;
 }
 
+#submit-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
 
 /* Footer section */
 .footer-container{
@@ -764,6 +781,17 @@
         top: 47rem;
         left: 9.3rem;
         margin: 0 auto;
+    }
+
+    #bottom-btn a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #bottom-btn:hover a{
+        color: var(--bgOrange);
+        font-weight: bold;
+    
     }
 
     .faded-text{
@@ -892,6 +920,11 @@
 
 @media (max-width: 778px){
     
+
+    #bottom-btn{
+        scale: 1.7;
+    }
+
     .skills-contaier{
         margin: 0rem auto;
         padding: 5rem 0;
@@ -962,9 +995,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        padding: 30px ;
     }
     #submit-btn:hover{
         scale: 0.6;
+    }
+
+    #submit-btn:hover a{
+        color: var(--bgOrange);
+        font-weight: bold;
+    }
+
+    #submit-btn:hover i {
+        color: var(--bgOrange);
+    }
+
+    #submit-btn a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.6rem;
     }
 }

@@ -688,6 +688,15 @@
     margin: 1rem 0;
 }
 
+#submit-btn:hover a{
+    color: var(--bgOrange);
+    font-weight: bold;
+}
+
+#submit-btn:hover i {
+    color: var(--bgOrange);
+}
+
 #submit-btn:hover{
     scale: 0.9;
 }

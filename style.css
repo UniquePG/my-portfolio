@@ -517,18 +517,18 @@
 }
 
 #project1{
-    background-image: url(./images/project1.png);
+    background-image: url(./images/p5.png);
 }
 #project2{
     margin-left: 120px;
-    background-image: url(./images/project2.png);
+    background-image: url(./images/p2.png);
 }
 #project3{
-    background-image: url(./images/project3.png);
+    background-image: url(./images/p1.png);
 }
 #project4{
     margin-left: 120px;
-    background-image: url(./images/project4.png);
+    background-image: url(./images/p3.png);
 }
 
 
